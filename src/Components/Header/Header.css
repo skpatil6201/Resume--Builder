@@ -1,0 +1,52 @@
+.section {
+  margin-top: -14px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.MuiPaper-root.MuiAppBar-root {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthXl {
+  padding: 5px 30px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: #f20544;
+}
+
+.drawerLinks a {
+  margin-top: 30px;
+}
+
+.active {
+  color: #f20544;
+}
+.MuiToolbar-root.MuiToolbar-regular {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 600px) and (max-width: 640px) {
+  .aboutUs {
+    margin-right: 0px !important;
+  }
+}
